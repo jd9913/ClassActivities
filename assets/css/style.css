@@ -44,7 +44,10 @@ main h2 {
 
 
 .flex-container {
-  /* Enter your CSS here */
+  display: flex;
+  justify-content: space-between;
+  flex: wrap;
+  width: 100%;
 }
 
 /* flex child */
